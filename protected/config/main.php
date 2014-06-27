@@ -5,10 +5,11 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Работает',
-
+    'theme'=>'bootstrap', // requires you to copy the theme under your themes directory
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -26,7 +27,9 @@ return array(
 			'password'=>'Enter Your Password Here',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
+
 		),
+
 
 	),
 
@@ -36,6 +39,10 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+
+        'bootstrap'=>array(
+            'class'=>'application.extensions.components.Bootstrap',
+        ),
 		// uncomment the following to enable URLs in path-format
 
 		'urlManager'=>array(
@@ -87,4 +94,6 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
+
+
 );
