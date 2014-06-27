@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6099c3f8-1a48-4fef-beee-7095208e36ee" name="Default" comment="Тестировка">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsInteractiv/js/paper-full.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsInteractiv/index.html" afterPath="$PROJECT_DIR$/jsInteractiv/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsInteractiv/js/myScene.js" afterPath="$PROJECT_DIR$/jsInteractiv/js/myScene.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -26,37 +26,7 @@
     <favorites_list name="test" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="-0.0" vertical-offset="285" max-vertical-offset="1770">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsInteractiv/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="5" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0660066" vertical-offset="0" max-vertical-offset="909">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myScene.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsInteractiv/js/myScene.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -64,6 +34,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -78,8 +49,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="824" />
-    <option name="y" value="138" />
+    <option name="x" value="807" />
     <option name="width" value="1057" />
     <option name="height" value="1055" />
   </component>
@@ -138,6 +108,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twtcomFirst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,12 +219,24 @@
       <created>1403874676899</created>
       <updated>1403874676899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Тестировка">
+      <created>1403875211619</created>
+      <updated>1403875211619</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Тестировка">
+      <created>1403876248426</created>
+      <updated>1403876248426</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Тестировка">
+      <created>1403876384768</created>
+      <updated>1403876384768</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="824" y="138" width="1057" height="1055" extended-state="0" />
-    <editor active="true" />
+    <frame x="807" y="0" width="1057" height="1055" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -244,7 +244,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2492864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2492864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -297,23 +297,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsInteractiv/js/paper-full.js">
+    <entry file="file://$PROJECT_DIR$/protected/tests/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10967" column="38" selection-start="278044" selection-end="278044" vertical-scroll-proportion="0.7364425" vertical-offset="163376" max-vertical-offset="193155">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="933">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/jsInteractiv/js/jquery-2.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="-0.0" vertical-offset="285" max-vertical-offset="1770">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsInteractiv/js/paper-full.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10967" column="38" selection-start="278044" selection-end="278044" vertical-scroll-proportion="0.7380435" vertical-offset="163376" max-vertical-offset="193155">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsInteractiv/js/myScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="4" column="0" selection-start="40" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
@@ -322,7 +331,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsInteractiv/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0660066" vertical-offset="0" max-vertical-offset="909">
+        <state line="28" column="24" selection-start="590" selection-end="590" vertical-scroll-proportion="0.4620462" vertical-offset="0" max-vertical-offset="909">
+          <folding>
+            <marker date="1403876733632" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="-0.0" vertical-offset="285" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>

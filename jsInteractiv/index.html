@@ -4,21 +4,40 @@
 
 Hello
 </title>
+      <!--
         <script type="application/javascript" src="js/paper-full.js">  </script>
-
+-->
+        <script type="text/javascript"  src="js/jquery-2.1.1.min.js">
 
     </head>
 
 
-<body>
-<script type="text/paperscript" canvas ="scena" src="js/myScene.js">
+<body onload="draw()">
 
-</script>
 
-<canvas id="scena">
+
+
+        <script type="text/javascript">
+           $(document).ready(draw())
+
+            function draw(){
+                var canvas = document.getElementById('tutorial');
+                if (canvas.getContext){
+                    var ctx = canvas.getContext('2d');
+                }
+
+                ctx.fill
+            }
+        </script>
+
+
+        <canvas id="scena">
 
 </canvas>
 
+        <canvas id="tutorial" width="150" height="150"></canvas>
+        </body>
 
-</body>
+
+        </body>
 </html>

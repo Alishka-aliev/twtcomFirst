@@ -7,6 +7,5 @@ var _canvas = document.getElementById('scena');
 $(document).ready(init());
 
 function init(){
-alert('eee');
-
+document.write('dd');
 }
