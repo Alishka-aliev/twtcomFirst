@@ -1,5 +1,6 @@
 <?
 
 echo "Hi";
+ECHO "tEST";
 
 ?>
