@@ -1,6 +1,0 @@
-<?
-
-echo "Hi";
-ECHO "tEST";
-
-?>

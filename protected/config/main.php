@@ -5,11 +5,19 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+
+// Define a path alias for the Bootstrap extension as it's used internally.
+// In this example we assume that you unzipped the extension under protected/extensions.
 Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
+
 return array(
+
+
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Работает',
-    'theme'=>'bootstrap', // requires you to copy the theme under your themes directory
+	'name'=>'My Web Application',
+
+
+
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -20,15 +28,18 @@ return array(
 	),
 
 	'modules'=>array(
+
+
+
 		// uncomment the following to enable the Gii tool
 
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'Enter Your Password Here',
+			'password'=>'123',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
-
 		),
+
 
 
 	),
@@ -39,10 +50,13 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+       // 'bootstrap'=>array(
+         //   'class'=>'bootstrap.components.Bootstrap',
 
-        'bootstrap'=>array(
-            'class'=>'application.extensions.components.Bootstrap',
-        ),
+            'bootstrap'=>array(
+                'class'=>'bootstrap.components.Bootstrap',
+
+            ),
 		// uncomment the following to enable URLs in path-format
 
 		'urlManager'=>array(
@@ -88,12 +102,12 @@ return array(
 		),
 	),
 
+
+
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
-
-
 );

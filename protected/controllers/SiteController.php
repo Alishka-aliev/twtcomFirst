@@ -98,6 +98,16 @@ class SiteController extends Controller
 		$this->render('login',array('model'=>$model));
 	}
 
+
+    public  function  actionHelp(){
+        $model=new ContactForm;
+        $this->render('help',array('models'=>$model));
+
+    }
+
+
+
+
 	/**
 	 * Logs out the current user and redirect to homepage.
 	 */
@@ -106,7 +116,4 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
-
-
-
 }
