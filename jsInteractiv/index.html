@@ -4,38 +4,34 @@
 
 Hello
 </title>
-      <!--
-        <script type="application/javascript" src="js/paper-full.js">  </script>
--->
-        <script type="text/javascript"  src="js/jquery-2.1.1.min.js">
+
+  <script type="text/javascript"  src="js/jquery-2.1.1.min.js"></script>
 
     </head>
 
 
-<body onload="draw()">
+<body>
+
+   <script type="text/javascript" >
 
 
+       $(document).ready(init());
+
+       function init(){
+           var example = document.getElementById("scena"),
+                   ctx     = example.getContext('2d');
+           ctx.fillRect(0, 0, example.width, example.height);
+
+       }
+
+   </script>
 
 
-        <script type="text/javascript">
-           $(document).ready(draw())
-
-            function draw(){
-                var canvas = document.getElementById('tutorial');
-                if (canvas.getContext){
-                    var ctx = canvas.getContext('2d');
-                }
-
-                ctx.fill
-            }
-        </script>
-
-
-        <canvas id="scena">
+        <canvas id="scena" width="400" height="500">
 
 </canvas>
 
-        <canvas id="tutorial" width="150" height="150"></canvas>
+
         </body>
 
 
